@@ -79,6 +79,11 @@ module.exports = yeoman.generators.Base.extend({
             this.destinationPath('karma.conf.js')
         );
 
+        this.fs.copy(
+            this.templatePath('.gitignore'),
+            this.destinationPath('.gitignore')
+        );
+
         this.fs.copyTpl(
             this.templatePath('index.html'),
             this.destinationPath('index.html'), {
