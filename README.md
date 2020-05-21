@@ -1,3 +1,5 @@
+# WARNING: DEPRECATED
+
 # generator-electron-angular-material
 > Electron app template using the Angular Material framework.
 
